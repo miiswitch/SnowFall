@@ -1,7 +1,8 @@
 # Miiswitch - SnowFall Mod
 
 A brotato mod that adds stuff related to snow such as Characters, Items and Weapons.
-[!CAUTION] This is a very early release of the mod. Nothing as been extensively tested as of now.
+| :exclamation:  This is a very early release of the mod. Nothing as been extensively tested as of now.   |
+|---------------------------------------------------------------------------------------------------------| 
 
 # Requirements
 * [ModLoader](https://github.com/GodotModding/godot-mod-loader) - v6+
