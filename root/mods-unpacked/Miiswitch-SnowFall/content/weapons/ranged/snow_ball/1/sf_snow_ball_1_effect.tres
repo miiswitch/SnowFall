@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/sf_spawn_snow_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "SF_SPAWN_SNOW_ON_HIT_EFFECT"
+text_key = "SF_SPAWN_SNOW_ON_HIT_EFFECT_TEXT"
+value = 0
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
+chance = 0.49

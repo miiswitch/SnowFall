@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/1/sf_snow_ball_1_effect.tres" type="Resource" id=1]
+[ext_resource path="res://weapons/ranged/shuriken/shuriken_icon.png" type="Texture" id=2]
+[ext_resource path="res://weapons/ranged/shuriken/shuriken.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/2/sf_snow_ball_2_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/1/sf_snow_ball_1_stats.tres" type="Resource" id=5]
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=6]
+[ext_resource path="res://items/sets/support/support_set_data.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 6 )
+my_id = "weapon_snow_ball_1"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "SF_WEAPON_SNOW_BALL"
+tier = 0
+value = 12
+effects = [ ExtResource( 1 ) ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+weapon_id = "weapon_snow_ball"
+type = 1
+sets = [ ExtResource( 7 ) ]
+scene = ExtResource( 3 )
+stats = ExtResource( 5 )
+upgrades_into = ExtResource( 4 )
+add_to_chars_as_starting = [  ]

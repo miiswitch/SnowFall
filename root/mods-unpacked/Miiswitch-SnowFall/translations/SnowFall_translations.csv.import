@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://mods-unpacked/Miiswitch-SnowFall/translations/SnowFall_translations.en.translation", "res://mods-unpacked/Miiswitch-SnowFall/translations/SnowFall_translations.fr.translation" ]
+
+source_file="res://mods-unpacked/Miiswitch-SnowFall/translations/SnowFall_translations.csv"
+dest_files=[ "res://mods-unpacked/Miiswitch-SnowFall/translations/SnowFall_translations.en.translation", "res://mods-unpacked/Miiswitch-SnowFall/translations/SnowFall_translations.fr.translation" ]
+
+[params]
+
+compress=true
+delimiter=0
