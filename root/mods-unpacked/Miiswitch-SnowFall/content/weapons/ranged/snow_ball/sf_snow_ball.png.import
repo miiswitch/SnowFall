@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/snow_ball_empty.png-51253f5d7ad3474ff3173eeb46e3c5d0.stex"
+path="res://.import/sf_snow_ball.png-794e331a3f98d9b5b1ea074ab25dcf1b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/snow_ball_empty.png"
-dest_files=[ "res://.import/snow_ball_empty.png-51253f5d7ad3474ff3173eeb46e3c5d0.stex" ]
+source_file="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/sf_snow_ball.png"
+dest_files=[ "res://.import/sf_snow_ball.png-794e331a3f98d9b5b1ea074ab25dcf1b.stex" ]
 
 [params]
 

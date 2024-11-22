@@ -5,8 +5,8 @@
 [ext_resource path="res://weapons/ranged/shuriken/shuriken.tscn" type="PackedScene" id=3]
 [ext_resource path="res://weapons/ranged/shuriken/shuriken_icon.png" type="Texture" id=4]
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/3/sf_snow_ball_3_stats.tres" type="Resource" id=5]
-[ext_resource path="res://weapons/ranged/shuriken/3/shuriken_3_effect.tres" type="Resource" id=6]
-[ext_resource path="res://items/sets/support/support_set_data.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/3/sf_snow_ball_3_effect.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/sf_snow_ball.tscn" type="PackedScene" id=7]
 
 [resource]
 script = ExtResource( 1 )

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/1/sf_snow_ball_1_effect.tres" type="Resource" id=1]
 [ext_resource path="res://weapons/ranged/shuriken/shuriken_icon.png" type="Texture" id=2]
-[ext_resource path="res://weapons/ranged/shuriken/shuriken.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/sf_snow_ball.tscn" type="PackedScene" id=3]
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/2/sf_snow_ball_2_data.tres" type="Resource" id=4]
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/1/sf_snow_ball_1_stats.tres" type="Resource" id=5]
 [ext_resource path="res://items/global/weapon_data.gd" type="Script" id=6]
