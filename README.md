@@ -4,7 +4,7 @@ A brotato mod that adds stuff related to snow such as Characters, Items and Weap
 | :exclamation:  This is a very early release of the mod. Nothing as been extensively tested as of now.   |
 |---------------------------------------------------------------------------------------------------------| 
 
-The sprite for everything, from snow puddle, to items were made by me only. Yes they are not really pretty, art isn't my forte.
+The sprite for everything, from snow puddle, to items were made by me only or found in the internet with no copyright. Yes they are not really pretty, art isn't my forte.
 If any artist want to help me in any way to design new sprites, feel free to contact me on Discord : miiswitch.
 
 # Requirements
