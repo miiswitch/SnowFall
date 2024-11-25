@@ -11,6 +11,7 @@ func _init():
 	# Add extensions
 	ModLoaderMod.install_script_extension(dir + "extensions/weapons/sf_weapon.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/entities/units/unit/sf_unit.gd")
+	ModLoaderMod.install_script_extension(dir + "extensions/singletons/sf_player_run_data.gd")
 	
 	# Add translations
 	ModLoaderMod.add_translation(dir + "translations/SnowFall_translations.en.translation") # English
