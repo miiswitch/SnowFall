@@ -11,13 +11,21 @@ func _ready():
 
 func _on_Area2D_body_entered(body: RigidBody2D):
 	if body is Enemy:
-		body.current_stats.speed = body.current_stats.speed * SPEED_REDUCTION
+		if(body.snow_zone_effect_count == 0):
+			body.current_stats.speed = body.current_stats.speed * SPEED_REDUCTION			
+		body.snow_zone_effect_count += 1
 	# Change this with the player stat
 	if body is Player:
-		body.add_decaying_speed( - 300)
+		if(body.snow_zone_effect_count == 0):
+			body.add_decaying_speed( - 300)
+		body.snow_zone_effect_count += 1
 	
 func _on_Area2D_body_exited(body):
 	if body is Enemy:
-		body.reset_speed_stat(0)
+		if(body.snow_zone_effect_count == 0):
+			body.reset_speed_stat(0)
+		body.snow_zone_effect_count -= 1
 	if body is Player:
-		pass # reset speed of Player
+		if(body.snow_zone_effect_count == 0):
+			pass
+		body.snow_zone_effect_count -= 1
