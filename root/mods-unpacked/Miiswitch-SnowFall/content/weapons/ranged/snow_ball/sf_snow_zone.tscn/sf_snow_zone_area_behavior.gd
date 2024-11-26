@@ -17,7 +17,8 @@ func _on_Area2D_body_entered(body: RigidBody2D):
 		if(body.snow_zone_effect_count == 0):
 			var player_index = body.get_index()
 			TempStats.add_stat("stat_speed", RunData.get_player_effect("snow_zone_move_speed_modifier", player_index), player_index) # snow_zone_move_speed_modifier is negative by default
-			body.update_animation(body.get_movement() if body._can_move else Vector2.ZERO) # It seems stats to not update that frequently, so I call this to force the speed update
+			RunData.emit_stats_updated()
+			#body.update_animation(body.get_movement() if body._can_move else Vector2.ZERO) # It seems stats to not update that frequently, so I call this to force the speed update
 		body.snow_zone_effect_count += 1
 	
 func _on_Area2D_body_exited(body):
@@ -29,5 +30,6 @@ func _on_Area2D_body_exited(body):
 		if(body.snow_zone_effect_count == 1):
 			var player_index = body.get_index()
 			TempStats.remove_stat("stat_speed", RunData.get_player_effect("snow_zone_move_speed_modifier", player_index), player_index)
-			body.update_animation(body.get_movement() if body._can_move else Vector2.ZERO)
+			RunData.emit_stats_updated()
+			#body.update_animation(body.get_movement() if body._can_move else Vector2.ZERO)
 		body.snow_zone_effect_count -= 1
