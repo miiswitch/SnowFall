@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_snowshoe/sf_snowshoe_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/4/sf_snow_ball_4_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/1/sf_snow_ball_1_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/2/sf_snow_ball_2_data.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/weapons/ranged/snow_ball/3/sf_snow_ball_3_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=7]
+
+[resource]
+script = ExtResource( 7 )
+characters = [  ]
+items = [ ExtResource( 2 ) ]
+weapons = [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 3 ) ]
+weapons_characters = [  ]
+sets = [  ]
+challenges = [  ]
+upgrades = [  ]
+consumables = [  ]
+elites = [  ]
+difficulties = [  ]
+debug_items = [  ]
+debug_weapons = [  ]

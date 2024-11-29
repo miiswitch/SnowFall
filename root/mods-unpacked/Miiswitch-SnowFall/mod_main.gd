@@ -22,5 +22,9 @@ func _ready():
 	
 	var ContentLoader = get_node("/root/ModLoader/Darkly77-ContentLoader/ContentLoader")
 	
+	# Items
+	ContentLoader.load_data(dir + "content_data/items/sf_items.tres", SNOWFALL_LOG)
+	
 	# Ranged Weapon
-	ContentLoader.load_data(dir + "content_data/weapons/ranged/SnowFall_snow_ball.tres", SNOWFALL_LOG)
+	ContentLoader.load_data(dir + "content_data/weapons/ranged/sf_snow_ball.tres", SNOWFALL_LOG)
+	
