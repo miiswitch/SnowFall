@@ -6,5 +6,6 @@ SF_ITEM_SNOWSHOE,snowshoe,raquettes à neige
 SF_ITEM_MULLED_WINE,mulled wine,vin chaud
 SF_ITEM_ICE_CREAM,ice cream,crème glacée
 SF_ITEM_POLAR_BEAR,polar bear,ours polaire
+SF_ITEM_IGLOO,igloo,igloo
 SNOW_ZONE_MOVE_SPEED_MODIFIER,{0} % Speed on snow zone,{0} % Vitesse sur les zones de neige
 
