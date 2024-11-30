@@ -21,6 +21,6 @@ tracking_text = ""
 is_lockable = true
 is_cursed = false
 curse_factor = 0.0
-max_nb = 1
+max_nb = -1
 item_appearances = [  ]
 tags = [ "stat_max_hp", "stat_lifesteal" ]
