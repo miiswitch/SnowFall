@@ -22,6 +22,8 @@ func _ready():
 	
 	var ContentLoader = get_node("/root/ModLoader/Darkly77-ContentLoader/ContentLoader")
 	
+	# DEBUG
+	ContentLoader.load_data(dir + "content_data/debug/debug_ressource.tres", SNOWFALL_LOG)
 	# Items
 	ContentLoader.load_data(dir + "content_data/items/sf_items.tres", SNOWFALL_LOG)
 	
