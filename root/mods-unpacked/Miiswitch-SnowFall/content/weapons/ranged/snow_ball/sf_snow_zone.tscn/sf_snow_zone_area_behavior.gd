@@ -17,6 +17,9 @@ func _on_Area2D_body_entered(body: RigidBody2D):
 		if(body.snow_zone_effect_count == 0):
 			var player_index = body.get_index()
 			TempStats.add_stat("stat_speed", RunData.get_player_effect("snow_zone_move_speed_modifier", player_index), player_index) # snow_zone_move_speed_modifier is negative by default
+			# If player has the sledge
+			if RunData.get_player_effect_bool("sf_sledge_effect", player_index):
+				TempStats.add_stat("stat_armor", RunData.current_wave, player_index)
 			RunData.emit_stats_updated()
 		body.snow_zone_effect_count += 1
 	
@@ -29,5 +32,7 @@ func _on_Area2D_body_exited(body):
 		if(body.snow_zone_effect_count == 1):
 			var player_index = body.get_index()
 			TempStats.remove_stat("stat_speed", RunData.get_player_effect("snow_zone_move_speed_modifier", player_index), player_index)
+			if RunData.get_player_effect("sf_sledge_effect", player_index):
+				TempStats.remove_stat("stat_armor", RunData.current_wave, player_index)
 			RunData.emit_stats_updated()
 		body.snow_zone_effect_count -= 1

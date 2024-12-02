@@ -7,6 +7,7 @@ static func init_effects()->Dictionary:
 
 		var new_effects: = {
 			"snow_zone_move_speed_modifier" : -40,
+			"sf_sledge_effect" : 0,
 		}
 
 		new_effects.merge(vanilla_effects)

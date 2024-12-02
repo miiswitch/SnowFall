@@ -2,6 +2,8 @@ keys,en,fr
 ,,
 SF_WEAPON_SNOW_BALL,snow ball,boule de neige
 SF_SPAWN_SNOW_ON_HIT_EFFECT_TEXT,has a {0} % chance to spawn snow ground,
+SF_SLEDGE_EFFECT,gain armor equivalent to the wave number when on snow puddle,gagne de l'armure équivalente au numéro de vague quand vous êtes sur une zone de neige
+,,
 SF_ITEM_SNOWSHOE,snowshoe,raquettes à neige
 SF_ITEM_MULLED_WINE,mulled wine,vin chaud
 SF_ITEM_ICE_CREAM,ice cream,crème glacée
