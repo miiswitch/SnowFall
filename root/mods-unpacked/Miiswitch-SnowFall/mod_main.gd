@@ -12,6 +12,7 @@ func _init():
 	ModLoaderMod.install_script_extension(dir + "extensions/weapons/sf_weapon.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/entities/units/unit/sf_unit.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/singletons/sf_player_run_data.gd")
+	ModLoaderMod.install_script_extension(dir + "extensions/dlcs/dlc_1/effect_behaviors/enemy/sf_charm_enemy_effect_behavior.gd")
 	
 	# Add translations
 	ModLoaderMod.add_translation(dir + "translations/SnowFall_translations.en.translation") # English
@@ -24,9 +25,12 @@ func _ready():
 	
 	# DEBUG
 	ContentLoader.load_data(dir + "content_data/debug/debug_ressource.tres", SNOWFALL_LOG)
+	
+	# Characters
+	ContentLoader.load_data(dir + "content_data/characters/sf_characters.tres", SNOWFALL_LOG)
+	
 	# Items
 	ContentLoader.load_data(dir + "content_data/items/sf_items.tres", SNOWFALL_LOG)
 	
 	# Ranged Weapon
 	ContentLoader.load_data(dir + "content_data/weapons/ranged/sf_snow_ball.tres", SNOWFALL_LOG)
-	

@@ -1,13 +1,17 @@
 keys,en,fr
 ,,
-SF_WEAPON_SNOW_BALL,snow ball,boule de neige
-SF_SPAWN_SNOW_ON_HIT_EFFECT_TEXT,has a {0} % chance to spawn snow ground,
-SF_SLEDGE_EFFECT,gain armor equivalent to the wave number when on snow puddle,gagne de l'armure équivalente au numéro de vague quand vous êtes sur une zone de neige
+SF_CHARACTER_SNOW_WITCH,Snow Witch,Sorcière des neiges
 ,,
-SF_ITEM_SNOWSHOE,snowshoe,raquettes à neige
-SF_ITEM_MULLED_WINE,mulled wine,vin chaud
-SF_ITEM_ICE_CREAM,ice cream,crème glacée
-SF_ITEM_POLAR_BEAR,polar bear,ours polaire
-SF_ITEM_IGLOO,igloo,igloo
+SF_WEAPON_SNOW_BALL,Snow ball,Boule de neige
+,,
+SF_SPAWN_SNOW_ON_HIT_EFFECT_TEXT,Has a {0} % chance to spawn a snow puddle on ground,A {0} % de chance de spawn une zone de neige par terre
+SF_SLEDGE_EFFECT,Gain armor equivalent to the wave number when on snow puddle,Gagne de l'armure équivalente au numéro de vague quand vous êtes sur une zone de neige
+SF_SNOW_WITCH_EFFECT_TEXT,Has a {0} % chance to charm an enemy located on snow zone,A {0} % de chance de charm un ennemi situé sur une zone de neige
+,,
+SF_ITEM_SNOWSHOE,Snowshoe,Raquettes à neige
+SF_ITEM_MULLED_WINE,Mulled wine,Vin chaud
+SF_ITEM_ICE_CREAM,Ice cream,Crème glacée
+SF_ITEM_POLAR_BEAR,Polar bear,Ours polaire
+SF_ITEM_IGLOO,Igloo,Igloo
+,,
 SNOW_ZONE_MOVE_SPEED_MODIFIER,{0} % Speed on snow zone,{0} % Vitesse sur les zones de neige
-

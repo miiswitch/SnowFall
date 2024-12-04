@@ -9,7 +9,7 @@
 
 [resource]
 script = ExtResource( 1 )
-my_id = "weapon_snow_ball_4"
+my_id = "sf_weapon_snow_ball_4"
 unlocked_by_default = true
 icon = ExtResource( 4 )
 name = "SF_WEAPON_SNOW_BALL"
