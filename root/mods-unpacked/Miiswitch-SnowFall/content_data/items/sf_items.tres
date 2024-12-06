@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=8 format=2]
+[gd_resource type="Resource" load_steps=9 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_snowshoe/sf_snowshoe_data.tres" type="Resource" id=2]
@@ -7,11 +7,12 @@
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_polar_bear/sf_polar_bear_data.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_igloo/sf_igloo_data.tres" type="Resource" id=6]
 [ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_sledge/sf_sledge_data.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_ice_skate/sf_ice_skate_data.tres" type="Resource" id=8]
 
 [resource]
 script = ExtResource( 1 )
 characters = [  ]
-items = [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ]
+items = [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ]
 weapons = [  ]
 weapons_characters = [  ]
 sets = [  ]
