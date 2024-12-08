@@ -16,5 +16,6 @@ SF_ITEM_POLAR_BEAR,Polar bear,Ours polaire
 SF_ITEM_IGLOO,Igloo,Igloo
 SF_ITEM_ICE_SKATE,Ice skate,Patins à glace
 SF_ITEM_SKI_GLASSES,Ski glasses,Lunettes de ski
+SF_ITEM_WINTER_TIRE,Winter tire,Pneu neiges
 ,,
 SNOW_ZONE_MOVE_SPEED_MODIFIER,{0} % Speed on snow zone,{0} % Vitesse sur les zones de neige
