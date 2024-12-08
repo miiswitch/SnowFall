@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_ski_glasses/sf_ski_glasses_icon.png" type="Texture" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_ski_glasses/sf_ski_glasses_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Miiswitch-SnowFall/content/items/sf_ski_glasses/sf_ski_glasses_effect_2.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "sf_item_ski_glasses"
+unlocked_by_default = true
+icon = ExtResource( 1 )
+name = "SF_ITEM_SKI_GLASSES"
+tier = 1
+value = 50
+effects = [ ExtResource( 3 ), ExtResource( 4 ) ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+max_nb = -1
+item_appearances = [  ]
+tags = [ "stat_range", "stat_crit_chance" ]
