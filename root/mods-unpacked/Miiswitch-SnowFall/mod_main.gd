@@ -11,6 +11,7 @@ func _init():
 	# Add extensions
 	ModLoaderMod.install_script_extension(dir + "extensions/weapons/sf_weapon.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/entities/units/unit/sf_unit.gd")
+	ModLoaderMod.install_script_extension(dir + "extensions/entities/units/player/sf_player.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/singletons/sf_player_run_data.gd")
 	ModLoaderMod.install_script_extension(dir + "extensions/dlcs/dlc_1/effect_behaviors/enemy/sf_charm_enemy_effect_behavior.gd")
 	

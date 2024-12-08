@@ -19,5 +19,7 @@ SF_ITEM_SKI_GLASSES,Ski glasses,Lunettes de ski
 SF_ITEM_WINTER_TIRE,Winter tire,Pneu neiges
 SF_ITEM_DISTRESS_FLARE,Distress Flare,Feux de détresse
 SF_ITEM_RACLETTE,Raclette,Raclette
+SF_ITEM_PILLS,Pills,Pillules
 ,,
 SNOW_ZONE_MOVE_SPEED_MODIFIER,{0} % Speed on snow zone,{0} % Vitesse sur les zones de neige
+SF_STAT_GAIN_HARVESTING_WHILE_HURT, Gain {0} material every time you take damage,Gagne {0} à chaque fois que vous prenez des dégâts

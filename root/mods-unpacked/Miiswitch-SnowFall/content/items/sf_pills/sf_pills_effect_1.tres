@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://items/global/effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "sf_stat_gain_harvesting_while_hurt"
+text_key = "SF_STAT_GAIN_HARVESTING_WHILE_HURT"
+value = 2
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
