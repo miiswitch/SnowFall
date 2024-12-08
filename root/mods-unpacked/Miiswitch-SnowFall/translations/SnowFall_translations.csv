@@ -17,5 +17,6 @@ SF_ITEM_IGLOO,Igloo,Igloo
 SF_ITEM_ICE_SKATE,Ice skate,Patins à glace
 SF_ITEM_SKI_GLASSES,Ski glasses,Lunettes de ski
 SF_ITEM_WINTER_TIRE,Winter tire,Pneu neiges
+SF_ITEM_DISTRESS_FLARE,Distress Flare,Feux de détresse
 ,,
 SNOW_ZONE_MOVE_SPEED_MODIFIER,{0} % Speed on snow zone,{0} % Vitesse sur les zones de neige
